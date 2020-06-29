@@ -1,0 +1,701 @@
+/* ***Responsive media query*** */
+
+
+    /* banner parts Starts*/
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+   
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    .banner_text{
+        position: absolute;
+        top: 294px;
+        z-index: 1;
+        left: 181px;
+    }
+    .banner_text h2{
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-weight: 800;
+        font-size: 41px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .banner_text p{
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    .banner_text{
+        position: absolute;
+        top: 258px;
+        z-index: 1;
+        left: 77px;
+    }
+    .banner_text h2{
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-weight: 800;
+        font-size: 38px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .banner_text p{
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-size: 14px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+    }
+    .banner_text{
+        position: absolute;
+        top: 247px;
+        z-index: 1;
+        left: 45px;
+    }
+    .banner_text h2{
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-weight: 800;
+        font-size: 30px;
+        text-align: center;
+        text-transform: uppercase
+    }
+    .banner_text p{
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .banner .owl-dots {
+        position: relative;
+        top: -35px;
+        z-index: 9;
+        left: -46px;
+        text-align: center;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .owl-carousel .owl-item img {
+        display: block;
+        width: 100%;
+    }
+    .banner_text{
+        position: absolute;
+        top: 207px;
+        z-index: 1;
+        left: 53px;
+    }
+    .banner_text h2{
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-weight: 800;
+        font-size: 28px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .banner_text p{
+        font-family: 'Karla', sans-serif;
+        color: #fff;
+        font-size: 11px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+
+}
+         /* banner parts  Ends*/
+
+
+/* start up starts */
+    /* Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1200px) { 
+    
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+   
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+
+  
+    .tree img{
+        height: 300px;
+        width: 100%;
+    }
+    .start_text h1{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 26px;
+        margin-bottom: 2px;
+    }
+    .start_text h2{
+        font-family: 'Karla', sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 500;
+     
+    }
+    .start-icon i{
+        font-size: 30px;
+        background-color: gray;
+        height: 40px;
+        width: 45px;
+        text-align: center;
+        padding-top: 5px;
+        color: black;
+    }
+    .media-body h2{
+        font-family: 'Karla', sans-serif;
+        font-weight: 500;
+        font-size: 18px;
+    }
+    .media-body p{
+        font-family: 'Karla', sans-serif;
+        font-size: 13px;
+    }
+    .btn {
+        border-radius: 20px;
+        font-size: 15px;
+        margin-bottom: 33px;
+    }
+
+
+   
+} 
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px)  { 
+    
+  
+    .tree img {
+        height: 310px;
+        width: 100%;
+    }
+    .start_text h1{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 30px;
+        margin-bottom: 2px;
+    }
+    .start_text h2{
+        font-family:'Karla', sans-serif;
+        font-size: 18px;
+        text-transform: uppercase;
+        font-weight: 500;  
+    }
+    .start-icon i {
+        font-size: 40px;
+        background-color: gray;
+        height: 50px;
+        width: 60px;
+        text-align: center;
+        padding-top: 5px;
+        color: black;
+        margin-right: 15px;
+    }
+    .media-body h2{
+        font-family:'Karla', sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .media-body p{
+        font-family:'Karla', sans-serif;
+        font-size: 15px;
+    }
+    .btn {
+        border-radius: 20px;
+        font-size: 15px;
+        margin-bottom: 33px;
+       
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+    .start_text h1{
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+    .start_text h2{
+        font-family: 'Karla', sans-serif;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 500;
+    }
+    .start_text p{
+        margin-top: 0;
+        margin-bottom: 1rem;
+        font-size: 14px;
+    }
+    .tree img{
+        height: 300px;
+        width: 100%;
+    }
+    .media-body h2{
+        font-family:'Karla', sans-serif;
+        font-size: 20px;
+        font-weight: 800;
+    }
+    .media-body p{
+        font-family: 'Karla', sans-serif;
+        font-size: 13px;
+    }
+    .start-icon i {
+        font-size: 33px;
+        background-color: gray;
+        height: 42px;
+        width: 42px;
+        text-align: center;
+        padding-top: 5px;
+        color: black;
+    }
+    .btn {
+        border-radius: 20px;
+        font-size: 15px;
+        margin-bottom: 33px;
+       
+    }
+}
+
+/* starts up ends */
+
+
+
+/* clients starts   */
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+        .owl-carousel .owl-item img {
+            display: block;
+            width: 100%;
+            margin-left: 5px;
+        }
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+        .client_img {
+            margin-top: 140px;
+            margin-left: -12px;
+        }
+        .owl-carousel .owl-item img {
+            display: block;
+            width: 99%;
+            margin-left: 14px;
+        }
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        .owl-carousel .owl-item img {
+            display: block;
+            width: 96%;
+            margin-left: 4px;
+        }
+        .client_img {
+            margin-top: 140px;
+            margin-left: 7px;
+        }
+    }
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        .client_img {
+            margin-top: 34px;
+            margin-left: -22px;
+        }
+        .owl-carousel .owl-item img {
+            display: block;
+            width: 83%;
+        }
+    }
+    
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+        .client_img {
+            margin-top: 30px;
+            margin-left: -40px;
+        }
+        .owl-carousel .owl-item img {
+            display: block;
+            width: 87%;
+            margin-left: 30px;
+        }
+      
+    }
+    
+    /* Clients ends */
+    
+    
+
+
+/* features starts */
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+    
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+       
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        .feature-icon i {
+            font-size: 35px;
+            background-color: #ecf0f1;
+            height: 43px;
+            width: 54px;
+            text-align: center;
+            padding: 5px;
+            color: black;
+        }
+        .media-body h2{
+            font-family:'Karla', sans-serif;
+            font-weight: 500;
+            font-size: 19px;
+        }
+        .media-body p{
+            font-family:'Karla', sans-serif;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 13px;
+        }
+      
+    }
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        .featureBtn {
+            border-radius: 20px;
+            font-size: 15px;
+            margin-bottom: 33px;
+            position: absolute;
+            top: 450px;
+            left: 160px;
+        }
+        .media-body h2{
+            font-family:'Karla', sans-serif;
+            font-weight: 500;
+            font-size: 19px;
+        }
+        .media-body p{
+            font-family:'Karla', sans-serif;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 13px;
+        }
+        .feature-icon i {
+            font-size: 30px;
+            background-color: #ecf0f1;
+            height: 40px;
+            width: 44px;
+            text-align: center;
+            padding: 5px;
+            color: black;
+        }
+    }
+    
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+        .feature_text {
+
+            line-height: 2px;
+            text-align: center;
+        
+        }
+        .featureBtn {
+            border-radius: 20px;
+            font-size: 15px;
+            margin-bottom: 33px;
+            position: absolute;
+            top: 450px;
+            left: 160px;
+        }
+        .media-body h2{
+            font-family:'Karla', sans-serif;
+            font-weight: 500;
+            font-size: 18px;
+        }
+        .media-body p{
+            font-family:'Karla', sans-serif;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 12px;
+        }
+        .feature-icon i {
+            font-size: 30px;
+            background-color: #ecf0f1;
+            height: 40px;
+            width: 44px;
+            text-align: center;
+            padding: 5px;
+            color: black;
+        }
+    }
+    
+    /* features  ends */
+    
+
+
+
+
+    /* pricing Starts */
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+    
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+        .card-a {
+            position: relative;
+            height: 370px;
+            width: 225px;
+            
+        }
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        .card-a {
+            position: relative;
+            height: 370px;
+            width: 170px;
+        }
+        .price-btn {
+            padding-left: 30px;
+            padding-right: 30px;
+        }
+    }
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        .price-text {
+            line-height: 2px;
+            text-align: center;
+        }
+        .price-text h2 {
+            font-family: 'Karla', sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 27px;
+        }
+        .price-text p {
+            font-family: 'Karla', sans-serif;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .card-a {
+            position: relative;
+            height: 370px;
+            width: 270px;
+            margin: 15px auto;
+        }
+    }
+    
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+        .price-text {
+
+            line-height: 2px;
+            text-align: center;
+        
+        }
+        .price-text h2 {
+            font-family: 'Karla', sans-serif;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 27px;
+        }
+        .price-text p {
+            font-family: 'Karla', sans-serif;
+            text-transform: uppercase;
+            font-weight: 500;
+            font-size: 14px;
+        }
+        .card-a {
+            position: relative;
+            height: 370px;
+            width: 270px;
+            margin: 15px auto;
+        }
+    }
+    
+    /* Pricing ends */
+    
+
+
+
+
+
+
+    /* Team Starts  */
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+    
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+        .card-b {
+
+            height: 400px;
+            width: 230px;
+        
+        }
+        .team .card img {
+
+            width: 230px;
+            height: 276px;
+        
+        }
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        .card-b {
+
+            height: 426px;
+            width: 174px;
+            
+        
+        }
+        .team .card-body:hover h3{
+            font-size: 10px;
+        }
+        .team .card img {
+
+            width: 172px;
+            height: 259px;
+        
+        }
+    }
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        .team-text {
+            line-height: 2px;
+            text-align: center;
+            padding-bottom: 16px;
+        }
+        .card-b{
+            margin:15px auto;
+        }
+    }
+    
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+        .team-text {
+            line-height: 2px;
+            text-align: center;
+            padding-bottom: 16px;
+        }
+        .card-b{
+            margin:15px auto;
+        }
+    }
+    
+    /* Team ends */
+    
+
+
+
+
+
+
+/* start up  */
+    /* Extra large devices (large desktops, 1200px and up) */
+    @media (min-width: 1200px) { 
+    
+    }
+    
+    /* Large devices (desktops, 992px and up) */
+    @media (min-width: 992px) and (max-width: 1199.98px) { 
+        .shape-warning img {
+            position: absolute;
+            top: -217px;
+            height: 200px;
+            width: 315px;
+        }
+        .shape-primary img {
+            position: absolute;
+            right: 0;
+            top: -156px;
+            height: 200px;
+            width: 315px;
+        }
+    }
+    
+    /* Medium devices (tablets, 768px and up) */
+    @media (min-width: 768px) and (max-width: 991.98px) { 
+        .shape-warning img {
+            position: absolute;
+            top: -177px;
+            height: 160px;
+            width: 263px;
+        }
+        .shape-primary img {
+            position: absolute;
+            right: 0;
+            top: -115px;
+            height: 160px;
+            width: 263px;
+        }
+    }
+    
+    /* Small devices (landscape phones, 576px and up) */
+    @media (min-width: 576px) and (max-width: 767.98px) { 
+        .shape-warning img {
+            display: none;
+        }
+        .shape-primary img {
+         display: none;
+        }
+        .btm_text{
+            margin:0 auto;
+        }
+    }
+    
+    /* Extra small devices (portrait phones, less than 576px) */
+    @media (max-width: 575.98px) { 
+        .shape-warning img {
+            display: none;
+        }
+        .shape-primary img {
+         display: none;
+        }
+        .btm_text{
+            margin:0 auto;
+        }
+    }
+    
+    /* starts up ends */
+    
+    

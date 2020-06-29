@@ -1,0 +1,457 @@
+*{
+    margin:0;
+    padding:0;
+    outline: 0;
+}
+.top-header{
+    background-color:#ecf0f1;
+}
+.text{
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    color:gray;
+}
+
+/* navbar starts */
+.navButton{
+    border-radius: 20px;
+}
+.navButton a{
+    color: #fff;
+}
+.top-nav{
+    background-color: #fff;
+    font-family: 'Karla', sans-serif;
+    font-size:15px;
+}
+/* navbar ends */
+
+/* banner parts starts  */
+.owl-carousel .owl-item img {
+
+    display: block;
+    width: 100%;
+    margin-left: 0px;
+
+}
+.owl-carousel .item {
+   text-align: center
+}
+
+.owl-carousel .item{
+    position: relative;
+    z-index: -1;
+    
+}
+
+
+.banner .owl-dots{
+    position: relative;
+    top: -50px;
+    z-index: 9;
+    left:0;
+    text-align: center;
+}
+
+.banner .owl-dots button span{
+   display: inline-block;
+   width: 15px;
+   height: 15px;
+   background-color: transparent;
+   margin:0 5px;
+   border:2px solid #a29b9b;
+   border-radius: 50%;
+}
+
+.banner_text {
+    position: absolute;
+    top: 355px;
+    z-index: 1;
+    left: 272px;
+}
+.banner_text h2{
+    font-family: 'Karla', sans-serif;
+    color:#fff;
+    font-weight: 800;
+    font-size: 48px;
+    text-align: center;
+    text-transform: uppercase;
+}
+.banner_text p{
+    font-family: 'Karla', sans-serif;
+    color:#fff;
+    font-size: 14px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/*banner parts ends */
+
+/*start up starts*/
+.tree img{
+    height:350px;
+    width:100%;
+}
+.start_text h1{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+    margin-bottom: 2px;
+}
+.start_text h2{
+    font-family:'Karla', sans-serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 500;  
+}
+.start-icon i{
+    font-size: 40px;
+    background-color:gray;
+    height:50px;
+    width:60px;
+    text-align: center;
+    padding-top:5px;
+    color:black;
+}
+.start-icon i:hover{
+    background-color:#fbc531;
+}
+.media-body h2{
+    font-family:'Karla', sans-serif;
+    font-size: 20px;
+    font-weight: 800;
+}
+.media-body p{
+    font-family:'Karla', sans-serif;
+    font-size: 15px;
+}
+.btn{
+    border-radius: 20px;
+    font-size: 15px;
+}
+/*start up ends*/
+
+
+/* client starts */
+.client{
+    background-color:#ecf0f1;
+}
+.client_text{
+    line-height: 2px;
+}
+.client_text h2{
+  text-transform: uppercase;
+  font-family:'Karla', sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+}
+.client_text p{
+    text-transform: uppercase;
+    font-family:'Karla', sans-serif;
+    font-size: 18px;
+    font-weight: 500;  
+}
+.client-icon i{
+    font-size: 45px;
+    color:black;
+}
+.client-footer{
+    line-height: 2px;
+}
+.client_img{
+    
+    margin-top: 140px;
+    margin-left: 30px;
+}
+
+.client_img img{
+    height:130px;
+    width:130px;
+    border-radius: 100px;
+    margin-left:28px;  
+}
+.owl-dots{
+    position: relative;
+    top: 10px;
+    z-index: 9;
+    left: 26px;
+    text-align: center;
+}
+ .owl-dots button span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    background-color: #66ffff;
+    margin:0 5px;
+    border:2px solid #a29b9b;
+    border-radius: 50%;
+
+}
+/* client ends */
+
+/* features starts  */
+.feature_text{
+    line-height: 2px;
+}
+.feature_text>h2{
+    font-family:'Karla', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+.feature_text p{
+    font-family:'Karla', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+}
+.media-body h2{
+    font-family:'Karla', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.shape{
+    position: relative;
+    top: 50px;
+}
+.feature-icon i{
+    font-size: 40px;
+    background-color:#ecf0f1;
+    height: 50px;
+    width:60px;
+    text-align: center;
+    padding: 5px;
+    color:black;
+}
+.feature-icon i:hover{
+    background-color:#fbc531
+}
+.shape img{
+    height:80px;
+    width:105px;
+    margin-bottom: 50px;
+   
+}
+.shape .img-1{
+    margin-right:80px;
+    z-index: 1;
+}
+.shape .img-2{
+    position: absolute;
+    top:0;
+    left:70px;
+    z-index: -1;
+}
+hr{
+    margin-top:0;
+}
+/* features ends */
+
+/*pricing starts*/
+.price-text{
+    line-height: 2px;
+}
+.price-text h2{
+    font-family:'Karla', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+.price-text p{
+    font-family:'Karla', sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+}
+.card-text p{
+    font-family:'Karla', sans-serif;
+    font-size: 14px;
+
+}
+.card{
+    background-color:#fff;
+    position: relative;
+}
+.card-a{
+    position: relative;
+    height: 370px;
+    width: 270px;
+}
+.card-a:after{
+    content: '';
+    background-color: #fbc531;
+    height: 2px;
+    width: 33px;
+    position: absolute;
+    top: 53px;
+    left: 100px;
+}
+.card .recomended img{
+    position: absolute;
+    height:98px;
+    width:100px;
+    display: none;
+}
+.card .recomended p{
+    display:none;
+    font-size: 15px;
+    transform: rotate(-45deg);
+    position: absolute;
+    top: 26px;
+    left: -5px;
+    color:white;
+}
+.card:hover .recomended img{
+    display: block;
+}
+.card:hover .recomended p{
+    display:block;
+}
+.card-a:hover{
+    box-shadow: 3px 3px 5px gray;
+}
+.card-title h1 { 
+     font-family:'Karla', sans-serif;
+    border-bottom: 1px solid gray;
+    font-size: 25px;
+    font-weight: 800;    
+ }
+.card-subtitle h2{
+     font-family:'Karla', sans-serif;
+    border-bottom: 1px solid gray;
+    font-size: 18px;
+    font-weight: 600;
+}
+.price-btn{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+/*pricing ends*/
+
+
+/*team starts*/
+.team-text{
+    line-height: 2px;
+}
+.team-text h2{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 30px;
+}
+.team-text p{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 18px;
+}
+.team{
+    background-color:#ecf0f1
+}
+.team .card img{
+    width:253px;
+    height:276px
+}
+.card-b{
+    height: 400px;
+    width: 255px;
+}
+.card-b:hover img{
+    transform:scaleX(1.003)
+}
+
+.card-b:hover{
+    box-shadow: 3px 3px 3px gray;
+    transform:scaleX(1.04)
+}
+.team .card-body{
+    background-color:#fff;
+}
+.team .card-body:hover h3{
+    font-size: 18px;
+}
+.team .card-body:hover p{
+    font-size: 18px;
+}
+.team-text h2{
+  font-family:'Karla', sans-serif;
+  font-weight: 800; 
+  font-size: 30px;
+}
+.team-text p{
+    font-family:'Karla', sans-serif;
+    font-weight: 800; 
+    font-size: 18px;
+}
+.card-p{
+    line-height: 8px;
+    padding-bottom:2px
+}
+.card-icon{
+    margin-left:20px;
+    margin-bottom:10px;
+}
+.card-icon i{
+    font-size: 14px;
+    margin-left:3px;
+    color:gray;
+}
+.card-body h3{
+    font-family:'Karla', sans-serif;
+    font-weight: 800; 
+    font-size: 14px;
+}
+.card-body p{
+     font-family:'Karla', sans-serif;
+    font-weight: 400; 
+    font-size: 14px;
+}
+/*team ends*/
+
+
+/*service starts*/
+.service-text h1{
+        font-family:'Karla', sans-serif;
+    font-weight: 800; 
+    font-size: 30px;
+}
+.service-text p{
+         font-family:'Karla', sans-serif; 
+    font-size: 14px;
+    word-spacing: 2px;
+}
+.btm-text p:first-child{
+    color:black;
+    font-size: 18px;
+}
+.btm_text p{
+    color:gray;
+}
+.bttom{
+     margin-bottom:85px;
+ }
+.News-img{
+    position: relative;
+}
+.shape-warning img{
+    position: absolute;
+    top: -257px;
+    height: 240px;
+    width: 400px;
+}
+.shape-primary img{
+    position: absolute;
+    right: 0;
+    top: -206px;
+    height: 250px;
+    width: 400px;
+}
+.news_text p{
+    font-family:'Karla', sans-serif; 
+    font-size: 14px;
+}
+.service-icon i{
+    font-size: 14px;
+    margin-left:5px;
+    color:gray;
+}
+/*service end*/
+
+
